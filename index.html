@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alis_BG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <html>
+  <div class="main_container">
+    <h1>Alis_BG<sub>-v-1</sub></h1>
+    <form>
+      <div>upload your img, (only JPEG supported)</div>
+      <input type="file" id="image" name="image" class="custom-file-input">
+      <label for="image" class="custom-file-label">Upload img</label>
+
+      <br><br>
+      <button type="button" onclick="removeBackground()" id="remove_button">Remove Background</button>
+      <div id="result"></div>
+
+      <a href="#" download class="download-link" style="display: none;">Download</a>
+    </form>
+
+
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #131313;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+h1{
+  color: #0077cc;
+}
+
+sub{
+  color: #a8a8a8;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+.main_container{
+  height: 100vh;
+  width: auto;
+  padding: 30px;
+}
+
+
+#image{
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #b8b8b8;
+  border-radius: 6px;
+}
+
+a.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.custom-file-input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.custom-file-label {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #b8b8b8;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.custom-file-label::after {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#remove_button{
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
